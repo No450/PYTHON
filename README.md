@@ -11,9 +11,7 @@ Este repositório foi criado com o objetivo de documentar minha jornada de aprim
 - Evoluir no uso de boas práticas de desenvolvimento
 
 ## 🧠 Conteúdo
-
-Os exercícios estão organizados por tema ou por fonte, conforme listado abaixo:
-
+Os exercícios estão organizados por tema ou por fonte, conforme listado Acima
 
 ## ⚙️ Tecnologias
 - Python 3.x
