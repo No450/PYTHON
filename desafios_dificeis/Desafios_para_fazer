@@ -1,0 +1,78 @@
+🧠 Jogos Lógicos e de Texto
+Adivinhe o Número — o computador escolhe um número aleatório, e o jogador tenta adivinhar com dicas ("maior" ou "menor").
+Jogo da Forca — o jogador tenta adivinhar uma palavra letra por letra.
+Jogo da Velha (Tic-Tac-Toe) — versão de texto com dois jogadores (ou contra o computador).
+Quiz Cronometrado — o jogador tem um tempo limite para responder perguntas.
+Jogo de Matemática — gera operações aleatórias e o jogador precisa resolver o mais rápido possível.
+História Interativa (Escolha Seu Caminho) — o jogador escolhe opções e o roteiro muda conforme as decisões.
+Jogo de Senha — o computador escolhe uma sequência de dígitos e o jogador tenta descobrir (tipo Mastermind).
+Cifra Misteriosa — o computador codifica mensagens simples (ex: Cifra de César) e o jogador tenta decifrar.
+Detetive de Mentiras — o programa faz perguntas, e o jogador tenta identificar quais respostas são verdadeiras ou falsas.
+Simulador de Dados — o jogador lança 1 ou mais dados e aposta em resultados (usando random).
+
+💥 Jogos de Sobrevivência / Estratégia Simples
+Aventuras no Deserto — o jogador gerencia água, energia e distância enquanto tenta atravessar o deserto (decisões por texto).
+Batalha de Turnos — o jogador e o inimigo atacam alternadamente, com opções de atacar, defender ou curar.
+Jogo do Cofre — o jogador tenta adivinhar um código secreto antes do tempo acabar.
+Corrida de Dados — dois competidores avançam num “tabuleiro” (feito em texto) com base em rolagens aleatórias.
+Sobrevivência Zumbi (texto) — o jogador faz escolhas (lutar, fugir, esconder) e sobrevive o máximo possível.
+Jogo de Economia — o jogador começa com X moedas e precisa comprar/vender itens para lucrar ao longo de rodadas.
+
+⏱️ Jogos de Reflexo e Tempo
+Reaja Rápido! — o programa mostra “AGORA!” depois de um tempo aleatório, e o jogador precisa apertar Enter o mais rápido possível (usando time).
+Cronômetro Humano — o jogador tenta apertar Enter exatamente após, por exemplo, 5 segundos. O programa mostra o erro em milissegundos.
+Jogo da Memória (texto) — mostra uma sequência de números por 1 segundo, depois o jogador deve repetir.
+Typing Challenge — o programa mostra uma palavra aleatória e mede o tempo que o jogador leva para digitar corretamente.
+
+Extras 
+Sistema de Gerador de senhas 
+Gerenciador de Lista de tarefas - permite adicionar, remover e marcar tarefas como concluídas, tudo salvo num .txt.
+Controle de Gastos — o usuário adiciona despesas e o programa mostra o total gasto por categoria.
+Simulador de Investimentos — calcula quanto renderia um valor aplicado com juros compostos.
+Divisor de Conta — divide o valor de uma conta de restaurante igualmente (ou proporcionalmente) entre pessoas.
+Sistema complexo e completo - Para cadastro de pedidos, produtos e etc.. 
+Calculadora de Descontos e Juros — dado o valor e a porcentagem, calcula preço final ou total de juros.
+Simulador de Sorteio — sorteia um nome de uma lista (ex: quem paga o lanche hoje 😅). /esse será mais bonito 
+Simulador de Caixa Eletrônico — o usuário pede um valor e o programa mostra as notas que serão entregues.
+Analisador de Nomes — pede o nome completo e mostra iniciais, tamanho e número de vogais/consoantes. (já fiz, falta commitar)
+Gerador de CPF Falso (válido) — cria CPFs válidos (útil pra testes de sistemas). 
+Verificador de Palíndromos — detecta se uma palavra ou frase é igual lida ao contrário.
+Contador de Palavras — lê um texto e mostra o número de palavras, letras e frases.
+Timer de Foco (Pomodoro) — define ciclos de 25 min de foco + 5 min de pausa com contagem regressiva.
+Calculadora de Tempo — o usuário digita duas horas (ex: 8:30 e 17:45) e o programa calcula quanto tempo passou.
+
+TREINO OFENSIVO DA LOGICA 
+Conversor de Números Romanos ↔ Inteiros
+Detecção de Palavras Anagramas - Dada uma lista de palavras, encontre grupos que são anagramas entre si.
+Sistema de Fila (Banco ou Hospital) - Simule o atendimento de clientes em ordem de chegada, com prioridades.
+Simulador de Elevador - Recebe pedidos de andares e decide a ordem ideal para atender.
+Gerenciador de Estoque - Produtos com nome, quantidade, validade e preço. Permite entrada/saída e relatórios.
+Sistema de Logs - Registre todas as ações feitas pelo usuário (como histórico) e mostre relatórios.
+Mini Jogo de Batalha RPG - Entidades com atributos (vida, ataque, defesa, sorte), sistema de turnos e efeitos aleatórios.
+Problema do Troco - Dado um valor e notas disponíveis, determine a combinação mínima de notas.
+Problema das Torres de Hanói - Resolva recursivamente e mostre o passo a passo.
+Simulador de Agenda Inteligente - Recebe compromissos e detecta conflitos de horários automaticamente.
+Caminho Mais Curto em um Grid (Texto) - Dado um mapa 2D simples em texto, encontre o menor caminho entre dois pontos.
+Gerador de Labirinto + Solucionador - Crie um labirinto aleatório (matriz de 0 e 1) e ache a saída.
+
+💼 4. Desafios de “Entrevista Técnica”
+
+Compactador de Strings (Run-Length Encoding)
+→ Exemplo: AAABBCCDAA → A3B2C2D1A2
+Treina: manipulação de strings e compressão simples.
+
+Encontrar Elemento Único
+→ Dada uma lista onde todos os números se repetem exceto um, encontre o único.
+Treina: uso de XOR, contagem e lógica.
+
+Sistema de Autenticação Simplificado
+→ Cadastrar usuários com senha (criptografar com hash), login e logout.
+Treina: manipulação de arquivos e segurança básica.
+
+Analisador de Logs de Acesso
+→ Ler um arquivo de logs e gerar estatísticas (ex: IPs únicos, acessos por hora).
+Treina: parsing de texto e análise de dados.
+
+Mini “Banco de Dados” em Arquivo
+→ CRUD (create, read, update, delete) de registros salvos num arquivo .txt ou .json.
+Treina: persistência de dados e organização de código.
