@@ -1,7 +1,7 @@
 import requests
 
 def buscar_produtos(termo, chave_api, id_cx):
-    url = "https://www.googleapis.com/customsearch/v1"
+    url = ""
     parametros = {
         "q": termo,
         "key": chave_api,
@@ -25,8 +25,8 @@ def buscar_produtos(termo, chave_api, id_cx):
         print("Erro ao buscar produtos:", resposta.status_code, resposta.text)
 
 
-CHAVE_API = "AIzaSyAOcYmj79s1gGStfJlrVn-D48CdhGfEFVo"
-ID_CX = "811ca4c7d464e4f5f"
+CHAVE_API = ""
+ID_CX = ""
 
 termo_de_busca = "Sensor ultrassonico "
 buscar_produtos(termo_de_busca, CHAVE_API, ID_CX)
