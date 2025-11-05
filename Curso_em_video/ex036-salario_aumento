@@ -1,0 +1,13 @@
+# Bem-vindo ao Python Code Pad
+# O código é guardado automaticamente na edição
+# Use-o para executar código Python 3
+
+salario = float(input("salario: "))
+
+if salario < 1250:
+  salario_converte = salario*0.15
+  print(f"o salario final é {salario+salario_converte}")
+
+elif salario > 1250:
+  salario_converte = salario*0.10
+  print(f"o salario final é {salario+salario_converte}")
